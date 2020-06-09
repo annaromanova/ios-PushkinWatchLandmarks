@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5932475E248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5932475D248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		59324764248E22AE00A74A4A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59324762248E22AE00A74A4A /* Interface.storyboard */; };
+		59324766248E22AE00A74A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59324765248E22AE00A74A4A /* Assets.xcassets */; };
+		5932476D248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5932476C248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		59324772248E22AF00A74A4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59324771248E22AF00A74A4A /* ContentView.swift */; };
+		59324774248E22AF00A74A4A /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59324773248E22AF00A74A4A /* HostingController.swift */; };
+		59324776248E22AF00A74A4A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59324775248E22AF00A74A4A /* ExtensionDelegate.swift */; };
+		59324778248E22AF00A74A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59324777248E22AF00A74A4A /* Assets.xcassets */; };
+		5932477B248E22AF00A74A4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5932477A248E22AF00A74A4A /* Preview Assets.xcassets */; };
+		5932478F248E24B100A74A4A /* ItemCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932478B248E24B000A74A4A /* ItemCD+CoreDataProperties.swift */; };
+		59324790248E24B100A74A4A /* Pushkin_Landmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5932478C248E24B000A74A4A /* Pushkin_Landmarks.xcdatamodeld */; };
+		59324791248E24B100A74A4A /* ItemCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932478E248E24B100A74A4A /* ItemCD+CoreDataClass.swift */; };
+		59324796248E24F800A74A4A /* Pushkin_Landmarks.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 59324793248E24F800A74A4A /* Pushkin_Landmarks.sqlite */; };
+		59324797248E24F800A74A4A /* Pushkin_Landmarks.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 59324794248E24F800A74A4A /* Pushkin_Landmarks.sqlite-wal */; };
+		59324798248E24F800A74A4A /* Pushkin_Landmarks.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 59324795248E24F800A74A4A /* Pushkin_Landmarks.sqlite-shm */; };
+		5932479B248E252C00A74A4A /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932479A248E252C00A74A4A /* WatchMapView.swift */; };
+		593247A0248E256C00A74A4A /* WatchListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932479D248E256C00A74A4A /* WatchListRow.swift */; };
+		593247A1248E256C00A74A4A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932479E248E256C00A74A4A /* UserData.swift */; };
+		593247A2248E256C00A74A4A /* WatchItemCDDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932479F248E256C00A74A4A /* WatchItemCDDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5932475F248E22AE00A74A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59324753248E22AD00A74A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5932475C248E22AE00A74A4A;
+			remoteInfo = "Pushkin WatchLandmarks WatchKit App";
+		};
+		5932476E248E22AF00A74A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59324753248E22AD00A74A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5932476B248E22AF00A74A4A;
+			remoteInfo = "Pushkin WatchLandmarks WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59324782248E22AF00A74A4A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5932476D248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59324786248E22AF00A74A4A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5932475E248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		59324759248E22AD00A74A4A /* Pushkin WatchLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushkin WatchLandmarks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5932475D248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushkin WatchLandmarks WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59324763248E22AE00A74A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		59324765248E22AE00A74A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59324767248E22AE00A74A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5932476C248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pushkin WatchLandmarks WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59324771248E22AF00A74A4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59324773248E22AF00A74A4A /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		59324775248E22AF00A74A4A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		59324777248E22AF00A74A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5932477A248E22AF00A74A4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5932477C248E22AF00A74A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5932478B248E24B000A74A4A /* ItemCD+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5932478D248E24B000A74A4A /* Pushkin_Landmarks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pushkin_Landmarks.xcdatamodel; sourceTree = "<group>"; };
+		5932478E248E24B100A74A4A /* ItemCD+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemCD+CoreDataClass.swift"; sourceTree = "<group>"; };
+		59324793248E24F800A74A4A /* Pushkin_Landmarks.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pushkin_Landmarks.sqlite; sourceTree = "<group>"; };
+		59324794248E24F800A74A4A /* Pushkin_Landmarks.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pushkin_Landmarks.sqlite-wal"; sourceTree = "<group>"; };
+		59324795248E24F800A74A4A /* Pushkin_Landmarks.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pushkin_Landmarks.sqlite-shm"; sourceTree = "<group>"; };
+		5932479A248E252C00A74A4A /* WatchMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchMapView.swift; sourceTree = "<group>"; };
+		5932479D248E256C00A74A4A /* WatchListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchListRow.swift; sourceTree = "<group>"; };
+		5932479E248E256C00A74A4A /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		5932479F248E256C00A74A4A /* WatchItemCDDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchItemCDDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59324769248E22AF00A74A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59324752248E22AD00A74A4A = {
+			isa = PBXGroup;
+			children = (
+				59324761248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App */,
+				59324770248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension */,
+				5932475A248E22AD00A74A4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5932475A248E22AD00A74A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59324759248E22AD00A74A4A /* Pushkin WatchLandmarks.app */,
+				5932475D248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App.app */,
+				5932476C248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59324761248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				59324762248E22AE00A74A4A /* Interface.storyboard */,
+				59324765248E22AE00A74A4A /* Assets.xcassets */,
+				59324767248E22AE00A74A4A /* Info.plist */,
+			);
+			path = "Pushkin WatchLandmarks WatchKit App";
+			sourceTree = "<group>";
+		};
+		59324770248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5932479C248E255600A74A4A /* Views */,
+				59324799248E251000A74A4A /* Supporting Views */,
+				59324792248E24C900A74A4A /* Resources */,
+				5932478A248E249900A74A4A /* Model */,
+				59324771248E22AF00A74A4A /* ContentView.swift */,
+				59324773248E22AF00A74A4A /* HostingController.swift */,
+				59324775248E22AF00A74A4A /* ExtensionDelegate.swift */,
+				59324777248E22AF00A74A4A /* Assets.xcassets */,
+				5932477C248E22AF00A74A4A /* Info.plist */,
+				59324779248E22AF00A74A4A /* Preview Content */,
+			);
+			path = "Pushkin WatchLandmarks WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		59324779248E22AF00A74A4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5932477A248E22AF00A74A4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5932478A248E249900A74A4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5932478E248E24B100A74A4A /* ItemCD+CoreDataClass.swift */,
+				5932478B248E24B000A74A4A /* ItemCD+CoreDataProperties.swift */,
+				5932478C248E24B000A74A4A /* Pushkin_Landmarks.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59324792248E24C900A74A4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59324793248E24F800A74A4A /* Pushkin_Landmarks.sqlite */,
+				59324795248E24F800A74A4A /* Pushkin_Landmarks.sqlite-shm */,
+				59324794248E24F800A74A4A /* Pushkin_Landmarks.sqlite-wal */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		59324799248E251000A74A4A /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				5932479A248E252C00A74A4A /* WatchMapView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		5932479C248E255600A74A4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5932479E248E256C00A74A4A /* UserData.swift */,
+				5932479F248E256C00A74A4A /* WatchItemCDDetail.swift */,
+				5932479D248E256C00A74A4A /* WatchListRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59324758248E22AD00A74A4A /* Pushkin WatchLandmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59324787248E22AF00A74A4A /* Build configuration list for PBXNativeTarget "Pushkin WatchLandmarks" */;
+			buildPhases = (
+				59324757248E22AD00A74A4A /* Resources */,
+				59324786248E22AF00A74A4A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59324760248E22AE00A74A4A /* PBXTargetDependency */,
+			);
+			name = "Pushkin WatchLandmarks";
+			productName = "Pushkin WatchLandmarks";
+			productReference = 59324759248E22AD00A74A4A /* Pushkin WatchLandmarks.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5932475C248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59324783248E22AF00A74A4A /* Build configuration list for PBXNativeTarget "Pushkin WatchLandmarks WatchKit App" */;
+			buildPhases = (
+				5932475B248E22AE00A74A4A /* Resources */,
+				59324782248E22AF00A74A4A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5932476F248E22AF00A74A4A /* PBXTargetDependency */,
+			);
+			name = "Pushkin WatchLandmarks WatchKit App";
+			productName = "Pushkin WatchLandmarks WatchKit App";
+			productReference = 5932475D248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5932476B248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5932477F248E22AF00A74A4A /* Build configuration list for PBXNativeTarget "Pushkin WatchLandmarks WatchKit Extension" */;
+			buildPhases = (
+				59324768248E22AF00A74A4A /* Sources */,
+				59324769248E22AF00A74A4A /* Frameworks */,
+				5932476A248E22AF00A74A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pushkin WatchLandmarks WatchKit Extension";
+			productName = "Pushkin WatchLandmarks WatchKit Extension";
+			productReference = 5932476C248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59324753248E22AD00A74A4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Anna Romanova";
+				TargetAttributes = {
+					59324758248E22AD00A74A4A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					5932475C248E22AE00A74A4A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					5932476B248E22AF00A74A4A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 59324756248E22AD00A74A4A /* Build configuration list for PBXProject "Pushkin WatchLandmarks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59324752248E22AD00A74A4A;
+			productRefGroup = 5932475A248E22AD00A74A4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59324758248E22AD00A74A4A /* Pushkin WatchLandmarks */,
+				5932475C248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App */,
+				5932476B248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59324757248E22AD00A74A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5932475B248E22AE00A74A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59324766248E22AE00A74A4A /* Assets.xcassets in Resources */,
+				59324764248E22AE00A74A4A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5932476A248E22AF00A74A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59324796248E24F800A74A4A /* Pushkin_Landmarks.sqlite in Resources */,
+				5932477B248E22AF00A74A4A /* Preview Assets.xcassets in Resources */,
+				59324798248E24F800A74A4A /* Pushkin_Landmarks.sqlite-shm in Resources */,
+				59324778248E22AF00A74A4A /* Assets.xcassets in Resources */,
+				59324797248E24F800A74A4A /* Pushkin_Landmarks.sqlite-wal in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59324768248E22AF00A74A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593247A0248E256C00A74A4A /* WatchListRow.swift in Sources */,
+				59324774248E22AF00A74A4A /* HostingController.swift in Sources */,
+				593247A2248E256C00A74A4A /* WatchItemCDDetail.swift in Sources */,
+				5932479B248E252C00A74A4A /* WatchMapView.swift in Sources */,
+				593247A1248E256C00A74A4A /* UserData.swift in Sources */,
+				59324772248E22AF00A74A4A /* ContentView.swift in Sources */,
+				59324776248E22AF00A74A4A /* ExtensionDelegate.swift in Sources */,
+				5932478F248E24B100A74A4A /* ItemCD+CoreDataProperties.swift in Sources */,
+				59324790248E24B100A74A4A /* Pushkin_Landmarks.xcdatamodeld in Sources */,
+				59324791248E24B100A74A4A /* ItemCD+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59324760248E22AE00A74A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5932475C248E22AE00A74A4A /* Pushkin WatchLandmarks WatchKit App */;
+			targetProxy = 5932475F248E22AE00A74A4A /* PBXContainerItemProxy */;
+		};
+		5932476F248E22AF00A74A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5932476B248E22AF00A74A4A /* Pushkin WatchLandmarks WatchKit Extension */;
+			targetProxy = 5932476E248E22AF00A74A4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59324762248E22AE00A74A4A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59324763248E22AE00A74A4A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5932477D248E22AF00A74A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5932477E248E22AF00A74A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59324780248E22AF00A74A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pushkin WatchLandmarks WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A9JV2SFQ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Pushkin WatchLandmarks WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiartlab.Pushkin-WatchLandmarks.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		59324781248E22AF00A74A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pushkin WatchLandmarks WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A9JV2SFQ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Pushkin WatchLandmarks WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiartlab.Pushkin-WatchLandmarks.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		59324784248E22AF00A74A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A9JV2SFQ7;
+				IBSC_MODULE = Pushkin_WatchLandmarks_WatchKit_Extension;
+				INFOPLIST_FILE = "Pushkin WatchLandmarks WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiartlab.Pushkin-WatchLandmarks.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		59324785248E22AF00A74A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9A9JV2SFQ7;
+				IBSC_MODULE = Pushkin_WatchLandmarks_WatchKit_Extension;
+				INFOPLIST_FILE = "Pushkin WatchLandmarks WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiartlab.Pushkin-WatchLandmarks.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		59324788248E22AF00A74A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A9JV2SFQ7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiartlab.Pushkin-WatchLandmarks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59324789248E22AF00A74A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A9JV2SFQ7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aiartlab.Pushkin-WatchLandmarks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59324756248E22AD00A74A4A /* Build configuration list for PBXProject "Pushkin WatchLandmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5932477D248E22AF00A74A4A /* Debug */,
+				5932477E248E22AF00A74A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5932477F248E22AF00A74A4A /* Build configuration list for PBXNativeTarget "Pushkin WatchLandmarks WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59324780248E22AF00A74A4A /* Debug */,
+				59324781248E22AF00A74A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59324783248E22AF00A74A4A /* Build configuration list for PBXNativeTarget "Pushkin WatchLandmarks WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59324784248E22AF00A74A4A /* Debug */,
+				59324785248E22AF00A74A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59324787248E22AF00A74A4A /* Build configuration list for PBXNativeTarget "Pushkin WatchLandmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59324788248E22AF00A74A4A /* Debug */,
+				59324789248E22AF00A74A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5932478C248E24B000A74A4A /* Pushkin_Landmarks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5932478D248E24B000A74A4A /* Pushkin_Landmarks.xcdatamodel */,
+			);
+			currentVersion = 5932478D248E24B000A74A4A /* Pushkin_Landmarks.xcdatamodel */;
+			path = Pushkin_Landmarks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59324753248E22AD00A74A4A /* Project object */;
+}
